@@ -6,6 +6,8 @@ Para ejecutar el proyecto utlizar npm run dev
 
 Dettalles
 
+--Instalar dependencias de npm con npm i || npm install
+--Iniciar el servidos con npm run dev
 --No ulticé ninguna libreria para estilos ya que me gusta todo de forma nativa, aunque no significa que no sepa usar bootstrap o tailwind css
 --Hay un Slider que se aapta a media query pero no funcion si se encoje la pantalla, para que funcione se debe recagar la pantalla en el tamaño que se necesite.
 

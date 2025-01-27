@@ -1,0 +1,45 @@
+#slider .main-slider {
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider .main-slider img {
+    width: 100%;
+}
+
+#slider .slider-content-items {
+    display: flex;
+    overflow: hidden;
+    /* padding: 20px; */
+}
+
+#slider .content-item {
+    position: relative;
+    flex: none;
+    /* transition: left 0.5s; */
+}
+
+#slider .unset-transition {
+    transition: unset !important;
+    z-index: -1;
+}
+
+#slider {
+    width: 100%;
+}
+
+#slider .content-slider-button>button {
+    width: 35px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.3em
+}

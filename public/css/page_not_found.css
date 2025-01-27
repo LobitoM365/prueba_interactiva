@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#not_found {
+    background-color: #170f2c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    word-break: break-word;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+#not_found .content-not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#not_found .button-go-home {
+    background-color: red;
+    border: unset;
+    border-radius: 4px;
+    width: max-content;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: black;
+    border: 2px solid currentColor;
+    text-decoration: none;
+}
+
+#not_found .button-go-home:hover {
+    border: 2px solid #00ffff;
+}
